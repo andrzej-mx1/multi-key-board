@@ -70,7 +70,7 @@ for index in range(0,len(int_ADC_boundaries)-1):
 
 
 #
-# Prints table with ADC eading ranges, in C/C++ syntax.
+# Prints to the stdout table with ADC reading ranges, in C/C++ syntax.
 #
 i=0
 str_output = "{"
