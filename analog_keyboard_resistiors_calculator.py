@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--Resistor', type=int, choices=range(1,10000), default=1500, help='Resistor R value in Ohms')
 parser.add_argument('--n', type=int, choices=range(2,101), default=3, help='Number of the keys.')
 args = parser.parse_args()
-#print(args)
+
 
 int_resistor=args.Resistor
 int_n = args.n
