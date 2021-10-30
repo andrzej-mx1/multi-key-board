@@ -13,9 +13,12 @@ int const intADCRanges[][2] = {{0,38},{38,119},{119,205},{205,290},{290,375},{37
 
 
 void setup() {
-  // put your setup code here, to run once:
+  
+  //
+  // Initialization of Keyboard function, 
+  // to allow to send chacters to PC over USB like PC keyboard.
+  //
   Keyboard.begin();
-  i=0;
 
   // initatilization of the IO pins
   pinMode(0,INPUT_PULLUP);
